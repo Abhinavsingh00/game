@@ -72,6 +72,10 @@ const App: React.FC = () => {
               <button className="menu-btn glass-card small-btn" onClick={game.goSettings}>
                 <SettingsIcon size={20} className="icon-gray" /> Settings
               </button>
+              
+              <div style={{ marginTop: '20px', textAlign: 'center', color: 'rgba(255, 255, 255, 0.5)', fontSize: '0.8rem', fontWeight: 500, letterSpacing: '1px', textTransform: 'uppercase' }}>
+                Made by Abhinav Singh
+              </div>
             </div>
           </motion.div>
         );

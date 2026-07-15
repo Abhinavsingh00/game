@@ -163,8 +163,8 @@ export const LEVELS: LevelConfig[] = Array.from({ length: 50 }, (_, index) => {
   if (id > 15) gridSize = 20;
   if (id > 35) gridSize = 24;
 
-  // Speed: starts at 170ms, caps at 60ms (decreasing interval = faster game)
-  const speed = Math.max(60, 170 - (id - 1) * 2.2);
+  // Speed: starts at 250ms, caps at 60ms (decreasing interval = faster game)
+  const speed = Math.max(60, 250 - (id - 1) * 3.5);
 
   // Procedural food cycling
   const foodType = FOOD_TYPES[(id - 1) % FOOD_TYPES.length];
